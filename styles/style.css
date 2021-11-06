@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  height: 8vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3.5rem;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .nav-link-right,
+.header .nav-link-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .nav-link-right li,
+.header .nav-link-left li {
+  padding: 0rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.header .logo {
+  margin-right: 2rem;
+}
+
+.hero {
+  position: relative;
+  padding-top: 2rem;
+  margin: 4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.hero .description {
+  width: 45%;
+}
+
+.hero .hero-image {
+  width: 50%;
+}
+
+.hero .hero-image img {
+  width: 100%;
+}
+
+.hero .heading {
+  font-size: 5.4rem;
+  font-weight: 800;
+  line-height: 6rem;
+  color: #3b3054;
+}
+
+.hero .sub-heading {
+  margin: 2rem 0;
+  color: #9e9aa7;
+  font-weight: 600;
+}
+
+.hero .btn {
+  margin-top: 2rem;
+  padding: 1.2rem 3rem;
+  border-radius: 10rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  background-color: #2acfcf;
+  color: #fff;
+}
+
+.link-shortner {
+  height: 10rem;
+  background-position: center;
+  background: url("../images/bg-shorten-desktop.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #35323e;
+  border-radius: 1rem;
+}
+
+.link-shortner .link-short {
+  width: 70%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.link-shortner .shorten {
+  padding: 1.5rem 2.5rem;
+  border-radius: 1rem;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  background-color: #2acfcf;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.brand-statistic {
+  background-color: rgba(158, 154, 167, 0.4);
+}
+/*# sourceMappingURL=style.css.map */

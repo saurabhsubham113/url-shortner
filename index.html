@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./script/script.js" async defer></script>
+  </head>
+  <body>
+
+    <main class="container">
+      <!-- header -->
+      <header class="header">
+        
+        <nav>       
+            <ul class="nav-link-right">
+              
+                <img src="./images/logo.svg" class="logo" alt="shortly-logo" />
+                           
+                <li class="nav-link-item">Features</li>
+                <li class="nav-link-item">Pricing</li>
+                <li class="nav-link-item">Resources</li>
+            </ul>
+              <ul class="nav-link-left">
+                <li class="nav-link-item">Login</li>
+                <li class="nav-link-item">Sign Up</li>
+              </ul>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="description">
+          <h1 class="heading">More than just shorter links</h1>
+          <p class="sub-heading">
+            Build your brand's recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="btn btn-cta">Get Started</button>
+        </div>
+        <div class="hero-image">
+          <img src="./images/illustration-working.svg" alt="hero-image" />
+        </div>
+      </section>
+
+      <section class="link-shortner">
+        <!-- <form> -->
+          <input type="text" class="link-short" name="link-short" required />
+          <button type="submit" class="shorten">Shorten it!</button>
+        <!-- </form> -->
+        <div id="results"></div>
+      </section>
+
+      <section class="brand-statistic">
+        <div class="brand-heading">
+          <h1>Advanced Statistics</h1>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+
+        <div class="brand-features">
+          <div class="feature feature-1">
+            <div class="feature-container">
+              <img
+                src="./images/icon-brand-recognition.svg"
+                alt="brand-recognition"
+              />
+              <div class="feature-details">
+                <h1>Brand Recognition</h1>
+                <p>
+                  Boost your brand recognition with each click. Generic links
+                  don’t mean a thing. Branded links help instil confidence in
+                  your content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature feature-2">
+            <div class="feature-container">
+              <img
+                src="./images/icon-detailed-records.svg"
+                alt="detailed-records"
+              />
+              <div class="feature-details">
+                <h1>Detailed Records</h1>
+                <p>
+                  Gain insights into who is clicking your links. Knowing when
+                  and where people engage with your content helps inform better
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature feature-2">
+            <div class="feature-container">
+              <img
+                src="./images/icon-fully-customizable.svg"
+                alt="fully-customizable"
+              />
+              <div class="feature-details">
+                <h1>Fully Customizable</h1>
+                <p>
+                  Improve brand awareness and content discoverability through
+                  customizable links, supercharging audience engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom-cta">
+        <h1>Boosts your link today</h1>
+        <button class="btn btn-cta">Get Started</button>
+      </section>
+
+      <footer>
+        <div class="footer-logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+
+        <div class="links-container">
+          <div class="feature link-1">
+            <p>Features</p>
+            <ul class="footer-link">
+              <li>Link Shortening</li>
+              <li>Branded Links</li>
+              <li>Analytics</li>
+            </ul>
+          </div>
+          <div class="resources link-1">
+            <p>Resources</p>
+            <ul class="footer-link">
+              <li>Blog</li>
+              <li>Developers</li>
+              <li>Support</li>
+            </ul>
+          </div>
+          <div class="company link-1">
+            <p>Company</p>
+            <ul class="footer-link">
+              <li>About</li>
+              <li>Our Team</li>
+              <li>Careers</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </main>
+  </body>
+</html>

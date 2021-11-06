@@ -1,0 +1,128 @@
+@import "./variable";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family;
+  font-size: 1.6rem;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  height: 8vh;
+  align-items: center;
+  margin-top: 3.5rem;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-link-right,
+  .nav-link-left {
+    display: flex;
+    li {
+      padding: 0rem 1rem;
+      margin-top: 0.5rem;
+    }
+  }
+  .logo {
+    margin-right: 2rem;
+  }
+}
+
+.hero {
+  position: relative;
+  padding-top: 2rem;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .description {
+    width: 45%;
+  }
+  .hero-image {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .heading {
+    font-size: 5.4rem;
+    font-weight: 800;
+    line-height: 6rem;
+    color: $dark-violet;
+  }
+  .sub-heading {
+    margin: 2rem 0;
+    color: $grayish-violet;
+    font-weight: 600;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    padding: 1.2rem 3rem;
+    border-radius: 10rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    background-color: $cyan;
+    color: #fff;
+  }
+}
+
+.link-shortner {
+  //   width: 90%;
+  //   margin: auto;
+  height: 10rem;
+  background-position: center;
+  background: url("../images/bg-shorten-desktop.svg");
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $very-dark-blue;
+  border-radius: 1rem;
+  .link-short {
+    width: 70%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+  }
+  .shorten {
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    background-color: $cyan;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+}
+
+.brand-statistic {
+  background-color: rgba($grayish-violet, 0.4);
+}
